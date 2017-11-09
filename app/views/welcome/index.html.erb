@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Justified Nav Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+    <p style="color:green; text-align:center"><%= @message %></p>
+    <p style="color:brown; text-align:right"><%= @time %></p>
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <nav>
+          <ul class="nav nav-justified">
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 style="text-align:center">Welcome to my homework!</h1>
+        <p></p>
+        <p style="text-align:center" class="lead">What a nice day !</p>
+        <p style="text-align:center"><a class="btn btn-lg btn-success" href="/welcome/goodbye" role="button">Good Bye </a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>My GitHub</h2>
+          <p class="text-danger">You can go to my github.</p>
+          <p>GitHub is a Web-based Git version control repository hosting service. </p>
+          <p>It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. 
+          </p>
+          <p><a class="btn btn-primary" href="https://github.com/bingjunguo/" target="_blank"  role="button">GO</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>UCAS</h2>
+          <p class="text-danger">I‘m from UCAS.</p>
+          <p>The University of Chinese Academy of Sciences (UCAS) is a higher education institution focusing on graduate education, under the direct leadership of the Chinese Academy of Sciences (CAS). </p>
+          <p>In 2014, UCAS began to recruit undergraduates.</p>
+          <p><a class="btn btn-primary" href="http://english.ucas.ac.cn/" target="_blank" role="button">GO</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>CSU</h2>
+          <p class="text-danger">I‘m from CSU.</p>
+          <p>Technology and Engineering Center for Space Utilization, Chinese Academy of Sciences (CSU) was formally established in August 2011.</p>
+          <p>CSU is constantly committed to Chinese manned space missions.</p>
+          <p><a class="btn btn-primary" href="http://english.csu.cas.cn/" target="_blank" role="button">GO</a></p>
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p">&copy; 2017 UCAS</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+

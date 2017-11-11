@@ -4,11 +4,7 @@
 
 * Ruby version: Ruby 2.3.1
 
-<<<<<<< HEAD
 * Rails version: Rails 5.1.4
-=======
-* Ruby version：ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
->>>>>>> 939b45d6d66801447be0b3b1ec002525e7e54df9
 
 * Bootstrap: v3.3.7
 

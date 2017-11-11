@@ -1,5 +1,9 @@
 # README
 
+外网访问地址
+
+* https://homework-greeting-bjguo.c9users.io/
+
 1.开发环境
 
 * Ruby version: Ruby 2.3.1

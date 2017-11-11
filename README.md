@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1.开发环境
 
-Things you may want to cover:
+* Ruby version: Ruby 2.3.1
 
-* Ruby version
+* Rails version: Rails 5.1.4
 
-* System dependencies
+* Bootstrap: v3.3.7
 
-* Configuration
+* System dependencies: ubuntu
 
-* Database creation
 
-* Database initialization
+2.功能实现
 
-* How to run the test suite
+* 主界面
+  点击"Good Bye"，进入再见页面
+![image](https://github.com/bingjunguo/homework_greeting/blob/master/screenshots/home.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+* 再见页面
+![image](https://github.com/bingjunguo/homework_db/blob/master/screenshots/goodbye.png)
 
-* Deployment instructions
-
-* ...
+3.值得注意
+  点击页面下方的"GO"，可进入其他链接
+![image](https://github.com/bingjunguo/homework_db/blob/master/screenshots/ucas.png)

@@ -14,6 +14,7 @@
 2.功能实现
 
 * 主界面
+  
   点击"Good Bye"，进入再见页面
 ![image](https://github.com/bingjunguo/homework_greeting/blob/master/screenshots/home.png)
 

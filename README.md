@@ -3,6 +3,7 @@
 外网访问地址
 
 * https://homework-greeting-bjguo.c9users.io/
+* 因为获取的是本地时间，在C9服务器上的本地时间为UTC时间
 
 1.开发环境
 
